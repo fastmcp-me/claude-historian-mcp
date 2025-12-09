@@ -3,8 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 
-const buildDir = 'claude-historian-dxt';
-const dxtFile = 'claude-historian.dxt';
+const buildDir = 'claude-historian-mcp-dxt';
+const dxtFile = 'claude-historian-mcp.dxt';
 
 console.log('🏗️  Building Claude Historian DXT package...');
 

@@ -1,5 +1,5 @@
 {
-  "name": "claude-historian-dxt",
+  "name": "claude-historian-mcp-dxt",
   "version": "1.0.1",
   "description": "Claude Historian DXT package for Claude Desktop",
   "type": "module",

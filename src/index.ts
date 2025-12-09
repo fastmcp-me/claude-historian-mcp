@@ -924,19 +924,19 @@ if (args.includes('--help') || args.includes('-h')) {
 Claude Historian - MCP Server for Claude Code History Search
 
 Usage:
-  npx claude-historian                    # Start MCP server (stdio mode)
-  npx claude-historian --config           # Show configuration snippet
-  npx claude-historian --doctor           # Run self-diagnostics and tests
-  npx claude-historian --help             # Show this help
+  npx claude-historian-mcp                # Start MCP server (stdio mode)
+  npx claude-historian-mcp --config       # Show configuration snippet
+  npx claude-historian-mcp --doctor       # Run self-diagnostics and tests
+  npx claude-historian-mcp --help         # Show this help
 
 Installation:
-  claude mcp add claude-historian -- npx claude-historian
+  claude mcp add claude-historian-mcp -- npx claude-historian-mcp
 
 Configuration snippet for ~/.claude/.claude.json:
 {
-  "claude-historian": {
+  "claude-historian-mcp": {
     "command": "npx",
-    "args": ["claude-historian"],
+    "args": ["claude-historian-mcp"],
     "env": {}
   }
 }
@@ -948,9 +948,9 @@ if (args.includes('--config')) {
   console.log(
     JSON.stringify(
       {
-        'claude-historian': {
+        'claude-historian-mcp': {
           command: 'npx',
-          args: ['claude-historian'],
+          args: ['claude-historian-mcp'],
           env: {},
         },
       },

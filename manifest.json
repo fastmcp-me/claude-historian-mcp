@@ -1,6 +1,6 @@
 {
   "dxt_version": "0.1.0",
-  "name": "claude-historian",
+  "name": "claude-historian-mcp",
   "version": "1.0.1",
   "display_name": "Claude Historian",
   "description": "Universal Claude conversation history search for Code and Desktop with intelligent ranking, workflow detection, and cool robot faces [⌐■_■]",
@@ -10,10 +10,10 @@
     "email": "vvkmnn@users.noreply.github.com",
     "url": "https://github.com/vvkmnn"
   },
-  "homepage": "https://github.com/Vvkmnn/claude-historian",
+  "homepage": "https://github.com/Vvkmnn/claude-historian-mcp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Vvkmnn/claude-historian"
+    "url": "https://github.com/Vvkmnn/claude-historian-mcp"
   },
   "license": "MIT",
   "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Claude_Fauchet_par_Thomas_de_Leu.jpg/336px-Claude_Fauchet_par_Thomas_de_Leu.jpg",

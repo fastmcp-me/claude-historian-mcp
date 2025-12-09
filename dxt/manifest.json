@@ -1,6 +1,6 @@
 {
   "dxt_version": "0.1",
-  "name": "claude-historian",
+  "name": "claude-historian-mcp",
   "display_name": "Claude Historian",
   "version": "1.0.1",
   "description": "A Model Context Protocol server for searching your Claude Code conversation history",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git", 
-    "url": "https://github.com/Vvkmnn/claude-historian"
+    "url": "https://github.com/Vvkmnn/claude-historian-mcp"
   },
-  "homepage": "https://github.com/Vvkmnn/claude-historian#readme",
-  "documentation": "https://github.com/Vvkmnn/claude-historian/blob/master/README.md",
-  "support": "https://github.com/Vvkmnn/claude-historian/issues",
+  "homepage": "https://github.com/Vvkmnn/claude-historian-mcp#readme",
+  "documentation": "https://github.com/Vvkmnn/claude-historian-mcp/blob/master/README.md",
+  "support": "https://github.com/Vvkmnn/claude-historian-mcp/issues",
   "license": "MIT",
   "icon": "icon.png",
   "keywords": [
